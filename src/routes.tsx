@@ -1,25 +1,19 @@
-import Test from "./components/Test/Test.tsx";
+import VistaChapas from "./components/Vistas/Chapas";
+import VistaListas from "./components/Vistas/Listas";
+import VistaAlta from "./components/Vistas/Alta";
 
 const childRoutes = [
   {
-    path: "about",
-    element: (
-      <div style={{ color: "red", height: "100vh", width: "100vw" }}>
-        <p>About</p>
-      </div>
-    ),
+    path: "chapas",
+    element: <VistaChapas />,
   },
   {
-    path: "contact",
-    element: (
-      <div style={{ color: "red", height: "100vh", width: "100vw" }}>
-        <p>Contact</p>
-      </div>
-    ),
+    path: "lista",
+    element: <VistaListas />,
   },
   {
-    path: "test",
-    element: <Test />,
+    path: "altas",
+    element: <VistaAlta />,
   },
 ];
 
