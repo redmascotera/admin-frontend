@@ -1,3 +1,3 @@
-declare module 'src/components/res/js/iconoLista.js';
-declare module 'src/components/res/js/iconoChapa.js';
-declare module 'src/components/res/js/iconoAlta.js';
+declare module 'src/components/res/js/listIcon';
+declare module 'src/components/res/js/petTagsIcon';
+declare module 'src/components/res/js/signupIcon';

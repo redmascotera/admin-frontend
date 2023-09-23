@@ -1,4 +1,4 @@
-const Icono = ({ color, size }: { color: string; size: number }) => {
+const Icon = ({ color, size }: { color: string; size: number }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -14,4 +14,4 @@ const Icono = ({ color, size }: { color: string; size: number }) => {
   );
 };
 
-export default Icono;
+export default Icon;

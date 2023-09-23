@@ -1,10 +1,10 @@
 import "../res/scss/tailwind.scss"
-import IconoLista from "./../res/js/iconoLista";
-import IconoAlta from "./../res/js/iconoAlta";
-import IconoChapa from "./../res/js/iconoChapa";
+import IconoLista from "../res/js/listIcon.tsx";
+import IconoAlta from "../res/js/signupIcon.tsx";
+import IconoChapa from "../res/js/petTagsIcon.tsx";
 import React from "react";
 
-const NavLateral = () => {
+const SideNav = () => {
     return (
       <React.Fragment>
         <div className="flex justify-center">
@@ -27,4 +27,4 @@ const NavLateral = () => {
     );
   };
   
-  export default NavLateral;
+  export default SideNav;

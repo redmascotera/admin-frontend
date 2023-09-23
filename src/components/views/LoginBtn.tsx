@@ -1,5 +1,5 @@
 import "../res/scss/tailwind.scss"
-import IconoLogout from "./../res/js/iconoLogout";
+import IconoLogout from "../res/js/logoutIcon.tsx";
 import React from "react";
 
 const LoginBtn = () => {

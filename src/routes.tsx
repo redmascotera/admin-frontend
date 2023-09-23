@@ -1,15 +1,15 @@
-import VistaChapas from "./components/Vistas/Chapas";
-import VistaListas from "./components/Vistas/Listas";
-import VistaAlta from "./components/Vistas/Alta";
+import PetTagsView from "./components/views/PetTags.tsx";
+import PetListView from "./components/views/PetList.tsx";
+import VistaAlta from "./components/views/Signup.tsx";
 
 const childRoutes = [
   {
     path: "chapas",
-    element: <VistaChapas />,
+    element: <PetTagsView />,
   },
   {
     path: "lista",
-    element: <VistaListas />,
+    element: <PetListView />,
   },
   {
     path: "altas",

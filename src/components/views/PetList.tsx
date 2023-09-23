@@ -1,9 +1,9 @@
 import "../res/scss/tailwind.scss"
-import Nav from "./NavLateral";
+import Nav from "./SideNav.tsx";
 import Header from "./Header";
 import React from "react";
 
-const VistaListas = () => {
+const PetListView = () => {
     return (
       <React.Fragment>
         <Header />
@@ -18,4 +18,4 @@ const VistaListas = () => {
     );
   };
   
-  export default VistaListas;
+export default PetListView;
