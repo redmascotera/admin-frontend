@@ -1,25 +1,19 @@
-import Test from "./components/Test/Test.tsx";
+import PetTagsView from "./components/views/PetTags.tsx";
+import PetListView from "./components/views/PetList.tsx";
+import VistaAlta from "./components/views/Signup.tsx";
 
 const childRoutes = [
   {
-    path: "about",
-    element: (
-      <div style={{ color: "red", height: "100vh", width: "100vw" }}>
-        <p>About</p>
-      </div>
-    ),
+    path: "chapas",
+    element: <PetTagsView />,
   },
   {
-    path: "contact",
-    element: (
-      <div style={{ color: "red", height: "100vh", width: "100vw" }}>
-        <p>Contact</p>
-      </div>
-    ),
+    path: "lista",
+    element: <PetListView />,
   },
   {
-    path: "test",
-    element: <Test />,
+    path: "altas",
+    element: <VistaAlta />,
   },
 ];
 
